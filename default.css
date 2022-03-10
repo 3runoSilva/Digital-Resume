@@ -32,6 +32,7 @@ html,
 body {
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 /*This makes the transition between colors feel more natural.*/
@@ -142,18 +143,56 @@ h6 {
   border-radius: 5px 5px 0 0;
 }
 
-#navigation a {
-  color: var(--mainText);
-}
-
 #navigation {
   margin: 0;
   padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
 }
 
 #navigation li {
-  display: inline-block;
-  margin-right: 5px;
+  margin: -7px;
+  margin-right: 5%;
+}
+
+.major {
+  cursor: pointer;
+  font-size: 50px;
+  border-radius: 5%;
+  border-right: 5px;
+  border-color: white;
+
+  background-color: var(--previewShadow);
+  border: 1px solid var(--borderColor);
+}
+
+.major:hover {
+  color: var(--previewShadow);
+  background: var(--buttonColor);
+  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+.active {
+  background-color: var(--buttonColor);
+  border-left: 10px solid var(--borderColor);
+  color: var(--previewShadow);
+
+  -webkit-box-shadow: -1px 1px 3px -1px #000000;
+  -moz-box-shadow: -1px 1px 3px -1px #000000;
+  box-shadow: -1px 1px 3px -1px #000000;
+}
+
+.minor {
+  cursor: pointer;
+  width: 0;
+  display: none;
+  padding-right: 5px;
 }
 
 .dots-wrapper {
@@ -202,11 +241,12 @@ h6 {
   border-radius: 5%;
   border: 2px solid var(--borderColor);
 
-  -webkit-box-shadow: 5px 5px 15px 3px #000000;
-  box-shadow: 5px 5px 15px 3px #000000;
+  -webkit-box-shadow: 5px 5px 15px 0px #000000;
+  box-shadow: 5px 5px 15px 0px #000000;
 }
 
 #profile_pic:hover {
+  transition: 0.3s;
   height: 55%;
   width: 55%;
 }
@@ -244,13 +284,13 @@ h6 {
   background-color: #192734;
 }
 
-#green-mode {
+/* #green-mode { 
   background-color: #78866b;
 }
 
 #purple-mode {
   background-color: #7e4c74;
-}
+} */
 
 #settings-note {
   font-size: 14px;
@@ -336,7 +376,7 @@ h6 {
   text-align: center;
 }
 
-.expertise {
+#expertise {
   font-size: 14px;
   display: grid;
   text-align: left;
@@ -351,7 +391,7 @@ h6 {
   text-align: center;
 }
 
-.experience {
+#experience {
   font-size: 14px;
   display: flex;
   justify-content: space-between;
@@ -388,7 +428,7 @@ h6 {
   text-align: center;
 }
 
-.skills {
+#skills {
   display: flex;
   justify-content: space-evenly;
   background-color: var(--previewShadow);
@@ -399,9 +439,20 @@ h6 {
   box-shadow: -1px 1px 3px -1px #000000;
 }
 
-#img-skills {
-  display: grid;
-  text-align: center;
+.img-skills1 {
+  margin-top: -10%;
+  padding-left: 0;
+  margin-left: -19px;
+}
+
+/* .img-skills2 {
+  display: flex;
+  padding-left: 0%;
+  margin-left: -20%;
+} */
+
+.img-skills3 {
+  padding-left: 0;
 }
 
 .social-links {
@@ -445,7 +496,7 @@ h6 {
 }
 
 .fa-github {
-  background: #2c4762;
+  background: #967bb6;
   color: white;
 }
 
@@ -544,6 +595,7 @@ h6 {
   color: #fff;
   background-color: var(--buttonColor);
   border: none;
+  cursor: pointer;
 }
 
 #submit-btn:hover {

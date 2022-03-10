@@ -43,3 +43,41 @@ function setTheme(mode) {
 const foo = [1, 2, 3];
 const [n] = foo;
 console.log(n);
+
+$(function () {
+  "use strict";
+
+  // Give Active Class
+
+  $(".major").first().addClass("active");
+
+  // Show class"major"
+
+  $(".minor").first().show().animate({ width: "40%" });
+
+  // Show class"minor" On Click
+
+  $(".major").click(function () {
+    $(this).addClass("active").siblings(".major").removeClass("active");
+
+    $(this)
+      .next()
+      .show()
+      .animate({ width: "40%" })
+      .siblings(".minor")
+      .animate({ width: 0 }, function () {
+        $(this).hide();
+      });
+  });
+});
+
+let container = $("div");
+
+function competencees() {
+  let scrollTo = $(".expertise");
+  let position =
+    scrollTo.offset().top - container.offset().top + container.scrollTop();
+  container.animate({
+    scrollTop: position,
+  });
+}
