@@ -204,28 +204,26 @@ h6 {
 #dot-en {
   cursor: pointer;
   background-color: #3b5998;
-  background-image: url('Images/enflag.png');
+  background-image: url("Images/enflag.png");
 }
 
 #dot-es {
   cursor: pointer;
-  background-color:red;
-  background-image: url('Images/esflag.png');
+  background-color: red;
+  background-image: url("Images/esflag.png");
 }
 
 #dot-fr {
   cursor: pointer;
   background-color: #3b5998;
-  background-image: url('Images/frflag.png');
-  
+  background-image: url("Images/frflag.png");
 }
 
 #dot-pt {
   cursor: pointer;
   background-color: green;
-  background-image: url('Images/ptflag.png');
+  background-image: url("Images/ptflag.png");
 }
-
 
 .lang-dot {
   background-color: black;
@@ -239,28 +237,36 @@ h6 {
   box-shadow: -1px 1px 3px -1px #000000;
 }
 
-#dot-en:hover{
+#dot-en:hover {
   transition: 0.5s;
-  -webkit-box-shadow: 0px 0px 0px 8px rgb(202, 5, 5), 0px 0px 0px 16px blue, 5px 6px 9px 11px rgba(0,0,0,0); 
-  box-shadow: 0px 0px 0px 8px rgb(202, 5, 5), 0px 0px 0px 16px blue, 5px 6px 9px 11px rgba(0,0,0,0);
+  -webkit-box-shadow: 0px 0px 0px 8px rgb(202, 5, 5), 0px 0px 0px 16px blue,
+    5px 6px 9px 11px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px 8px rgb(202, 5, 5), 0px 0px 0px 16px blue,
+    5px 6px 9px 11px rgba(0, 0, 0, 0);
 }
 
-#dot-es:hover{
+#dot-es:hover {
   transition: 0.5s;
-  -webkit-box-shadow: 0px 0px 0px 8px rgb(255, 217, 1), 0px 0px 0px 16px red, 5px 6px 9px 11px rgba(0,0,0,0); 
-  box-shadow: 0px 0px 0px 8px rgb(255, 217, 1), 0px 0px 0px 16px red, 5px 6px 9px 11px rgba(0,0,0,0);
+  -webkit-box-shadow: 0px 0px 0px 8px rgb(255, 217, 1), 0px 0px 0px 16px red,
+    5px 6px 9px 11px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px 8px rgb(255, 217, 1), 0px 0px 0px 16px red,
+    5px 6px 9px 11px rgba(0, 0, 0, 0);
 }
 
-#dot-fr:hover{
+#dot-fr:hover {
   transition: 0.3s;
-  -webkit-box-shadow: 0px 0px 0px 8px rgb(38, 67, 236), 0px 0px 0px 16px rgb(202, 5, 5), 5px 6px 9px 11px rgba(0,0,0,0); 
-  box-shadow: 0px 0px 0px 8px rgb(38, 67, 236), 0px 0px 0px 16px rgb(202, 5, 5), 5px 6px 9px 11px rgba(0,0,0,0);
+  -webkit-box-shadow: 0px 0px 0px 8px rgb(38, 67, 236),
+    0px 0px 0px 16px rgb(202, 5, 5), 5px 6px 9px 11px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px 8px rgb(38, 67, 236), 0px 0px 0px 16px rgb(202, 5, 5),
+    5px 6px 9px 11px rgba(0, 0, 0, 0);
 }
 
-#dot-pt:hover{
+#dot-pt:hover {
   transition: 0.3s;
-  -webkit-box-shadow: 0px 0px 0px 8px rgb(202, 5, 5), 0px 0px 0px 16px green, 5px 6px 9px 11px rgba(0,0,0,0); 
-  box-shadow: 0px 0px 0px 8px rgb(202, 5, 5), 0px 0px 0px 16px green, 5px 6px 9px 11px rgba(0,0,0,0);
+  -webkit-box-shadow: 0px 0px 0px 8px rgb(202, 5, 5), 0px 0px 0px 16px green,
+    5px 6px 9px 11px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px 8px rgb(202, 5, 5), 0px 0px 0px 16px green,
+    5px 6px 9px 11px rgba(0, 0, 0, 0);
 }
 
 .left-column {
@@ -321,14 +327,6 @@ h6 {
 #blue-mode {
   background-color: #192734;
 }
-
-/* #green-mode { 
-  background-color: #78866b;
-}
-
-#purple-mode {
-  background-color: #7e4c74;
-} */
 
 #settings-note {
   font-size: 14px;
@@ -483,11 +481,11 @@ h6 {
   margin-left: -19px;
 }
 
-/* .img-skills2 {
+.img-skills2 {
   display: flex;
   padding-left: 0%;
   margin-left: -20%;
-} */
+}
 
 .img-skills3 {
   padding-left: 0;
