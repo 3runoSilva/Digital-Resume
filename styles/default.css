@@ -536,61 +536,7 @@ h6 {
   color: white;
 }
 
-/*-------------------------SECTION 3------------------------*/
-/*----------------------------------------------------------*/
-
-.projects-title {
-  text-align: center;
-  margin-top: 0;
-  padding-top: 3%;
-}
-
-.post-wrapper {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 320px);
-  gap: 30px;
-  justify-content: center;
-  padding-bottom: 50px;
-  padding-top: 50px;
-}
-
-.post {
-  border: 1px solid var(--borderColor);
-  -webkit-box-shadow: -1px 1px 3px -1px #000000;
-  -moz-box-shadow: -1px 1px 3px -1px #000000;
-  box-shadow: -1px 1px 3px -1px #000000;
-}
-
-.post:hover {
-  height: 106%;
-  width: 106%;
-  background-color: #fff;
-  transition: 0s;
-}
-
-.thumbnail {
-  display: block;
-  height: 250px;
-  width: 100%;
-  object-fit: cover;
-}
-
-.post-preview {
-  background-color: #fff;
-  padding: 15px;
-}
-
-.post-title {
-  color: black;
-  margin: 0;
-}
-
-.post-intro {
-  color: #4b5156;
-  font-size: 14px;
-}
-
-/*--------------------------SECTION 4-----------------------*/
+/*--------------------------SECTION 3-----------------------*/
 /*----------------------------------------------------------*/
 
 #contact-form {
