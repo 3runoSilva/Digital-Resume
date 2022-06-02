@@ -22,11 +22,11 @@ for (var i = 0; themeDots.length > i; i++) {
 
 function setTheme(mode) {
   if (mode == "light") {
-    document.getElementById("theme-style").href = "/styles/default.css";
+    document.getElementById("theme-style").href = "/public/css/index.css";
   }
 
   if (mode == "blue") {
-    document.getElementById("theme-style").href = "/styles/blue.css";
+    document.getElementById("theme-style").href = "/public/css/blue.css";
   }
 
   localStorage.setItem("theme", mode);
