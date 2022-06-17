@@ -1,8 +1,0 @@
-//Mixin for box shadow
-@mixin box-shadow($color: black) {
-  -webkit-box-shadow: -1px 1px 3px -1px #000000;
-  -moz-box-shadow: -1px 1px 3px -1px #000000;
-  box-shadow: -1px 1px 3px -1px #000000;
-}
-
-//Mixin for text shadow
