@@ -201,6 +201,7 @@ h6 {
   margin-left: 5px;
 }
 
+<<<<<<< HEAD:styles/default.css
 #dot-en {
   cursor: pointer;
   background-color: #3b5998;
@@ -226,9 +227,24 @@ h6 {
 }
 
 .lang-dot {
+=======
+#dot-1 {
+  background-color: #fc6058;
+}
+
+#dot-2 {
+  background-color: #fec02f;
+}
+
+#dot-3 {
+  background-color: #2aca3e;
+}
+
+.browser-dot {
+>>>>>>> parent of cb44ce0 (feat:changed dots):default.css
   background-color: black;
-  height: 22px;
-  width: 22px;
+  height: 15px;
+  width: 15px;
   border-radius: 50%;
   margin: 5px;
 
@@ -237,6 +253,7 @@ h6 {
   box-shadow: -1px 1px 3px -1px #000000;
 }
 
+<<<<<<< HEAD:styles/default.css
 #dot-en:hover {
   transition: 0.5s;
   -webkit-box-shadow: 0px 0px 0px 8px rgb(202, 5, 5), 0px 0px 0px 16px blue,
@@ -269,6 +286,8 @@ h6 {
     5px 6px 9px 11px rgba(0, 0, 0, 0);
 }
 
+=======
+>>>>>>> parent of cb44ce0 (feat:changed dots):default.css
 .left-column {
   grid-area: left-column;
   padding-top: 50px;
