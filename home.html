@@ -13,7 +13,7 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <link rel="stylesheet" type="text/css" href="/styles/default.css" />
+  <link rel="stylesheet" type="text/css" href="default.css" />
 
   <link id="theme-style" rel="stylesheet" type="text/css" href="" />
 
@@ -27,7 +27,7 @@
   <!-----------------------SECTION 1----------------------->
   <!------------------------------------------------------->
 
-  <header class="s1">
+  <section class="s1">
     <div class="main-container">
       <div class="greeting-wrapper">
         <h1>Digital Resume</h1>
@@ -36,33 +36,31 @@
       <div class="intro-wrapper">
         <div class="nav-wrapper">
           <div class="dots-wrapper">
-            <div id="dot-1" class="browser-dot"></div>
-            <div id="dot-2" class="browser-dot"></div>
-            <div id="dot-3" class="browser-dot"></div>
+            <div id="dot-en" class="lang-dot" onclick="changeLanguageUsingLangResOnExternalJson(this.id)"><a href="#"></a></div>
+            <div id="dot-es" class="lang-dot" onclick="changeLanguageUsingLangResOnExternalJson(this.id)"><a href="#"></a></div>
+            <div id="dot-fr" class="lang-dot" onclick="changeLanguageUsingLangResOnExternalJson(this.id)"><a href="#"></a></div>
+            <div id="dot-pt" class="lang-dot" onclick="changeLanguageUsingLangResOnExternalJson(this.id)"><a href="#"></a></div>
           </div>
-<<<<<<< HEAD
-=======
 
           <ul id="navigation">
             <li class="major">A</li>
-            <li class="minor"><a href="#about-me">bout</a></li>
+            <li class="minor"><a href="#"> propos de moi</a></li>
 
             <li class="major">C</li>
-            <li class="minor"><a href="#expertise">ompétences</a></li>
+            <li class="minor"><a href="#">apacités</a></li>
 
             <li class="major">E</li>
-            <li class="minor"><a href="#experience">xpérience</a></li>
+            <li class="minor"><a href="#">xpérience</a></li>
 
             <li class="major">F</li>
-            <li class="minor"><a href="#formation">ormations</a></li>
-
-            <li class="major">S</li>
-            <li class="minor"><a href="#skills">kills</a></li>
+            <li class="minor"><a href="#">ormations</a></li>
 
             <li class="major">C</li>
-            <li class="minor"><a href="#contact-form">ontact</a></li>
+            <li class="minor"><a href="#">ompétences</a></li>
+
+            <li class="major">C</li>
+            <li class="minor"><a href="#">ontact</a></li>
           </ul>
->>>>>>> parent of cb44ce0 (feat:changed dots)
         </div>
 
         <div class="left-column">
@@ -74,6 +72,8 @@
           <div id="theme-options-wrapper">
             <div data-mode="light" id="light-mode" class="theme-dot"></div>
             <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+            <!-- <div data-mode="green" id="green-mode" class="theme-dot"></div>
+              <div data-mode="purple" id="purple-mode" class="theme-dot"></div> -->
           </div>
 
           <p id="settings-note">
@@ -101,12 +101,12 @@
         </div>
       </div>
     </div>
-  </header>
+  </section>
 
   <!-----------------------SECTION 2----------------------->
   <!------------------------------------------------------->
 
-  <main class="s2">
+  <section class="s2">
     <div class="main-container">
       <div class="about-wrapper">
         <div id="about-me">
@@ -117,12 +117,13 @@
             disposition plusieurs langues et aussi une large compréhension de
             différentes cultures. Nouveau dans le monde de la programmation,
             mon objectif courant c'est de devenir un Développeur Web.
+            <a target="_blank" href="profile.html">CV Traditionel</a>
           </p>
 
           <hr />
 
 
-          <h4 class="expertise-title">Compétences Profissionnelle/Personneles</h4>
+          <h4 class="expertise-title">Capacités Profissionnelle/Personneles</h4>
 
           <div id="expertise">
             <ul>
@@ -242,12 +243,13 @@
               </ul>
             </div>
 
-            <div>
+            <!-- <div>
             <h4>Back-End</h4>
             <ul class="img-skills2">
               <li><img src="Images/PHP.png" /></li>
+              <li><img src="Images/NodeJs.png" /></li>
             </ul>
-         </div>
+         </div> -->
 
             <div>
               <h4>Langues</h4>
@@ -264,37 +266,91 @@
             </div>
 
           </div>
+
+
+
+          <div class="social-links">
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100078377583604"
+              class="fa fa-facebook"></a>
+            <a target="_blank" href="https://twitter.com/BrunoDa02286415" class="fa fa-twitter"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/bruno-da-silva-b4579422b/" class="fa fa-linkedin"></a>
+            <a target="_blank" href="https://github.com/3runoSilva" class="fa fa-github"></a>
+          </div>
+
+
         </div>
       </div>
     </div>
     </div>
     </div>
-  </main>
-
- 
+  </section>
 
   <!-----------------------SECTION 3----------------------->
   <!------------------------------------------------------->
 
-  <footer class="s2">
+  <!--Full section 3 commented out to be used later on the actual portfolio project-->
 
-    <div class="social-links">
-      <a target="_blank" href="https://www.facebook.com/profile.php?id=100078377583604"
-        class="fa fa-facebook"></a>
-      <a target="_blank" href="https://twitter.com/BrunoDa02286415" class="fa fa-twitter"></a>
-      <a target="_blank" href="https://www.linkedin.com/in/bruno-da-silva-b4579422b/" class="fa fa-linkedin"></a>
-      <a target="_blank" href="https://github.com/3runoSilva" class="fa fa-github"></a>
+
+  <!-- <section class="s1">
+      <div class="main-container">
+        <h3 class="projects-title"">My Projects</h3>
+        <div class="post-wrapper">
+          <div class="post">
+            <img class="thumbnail" src="Images/Bank project.jpg" />
+              <div class="post-preview">
+                <h6 class="post-title">Bankist Site</h6>
+                <p class="post-intro">
+                  A Website mockup for a Bank with multiple feactures.
+                </p>
+                <a href="project1.html">Link Sample</a>
+              </div>
+          </div>
+
+          <div class="post">
+            <img class="thumbnail" src="Images/Map project.jpg" />
+              <div class="post-preview">
+                <h6 class="post-title">Mapty</h6>
+                <p class="post-intro">A functional google Maps like Website.</p>
+                <a href="project2.html">Link Sample</a>
+              </div>
+          </div>
+
+          <div class="post">
+            <img class="thumbnail" src="Images/food project.jpg" />
+              <div class="post-preview">
+                <h6 class="post-title">Forkify</h6>
+                <p class="post-intro">An advanced culinary recipes Website.</p>
+                <a href="project3.html">Link Sample</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+  <!-----------------------SECTION 4----------------------->
+  <!------------------------------------------------------->
+
+  <section class="s2">
+    <div class="main-container">
+      <h3 style="text-align: center">Contact</h3>
+
+      <form id="contact-form">
+        <label>Name</label>
+        <input class="input-field" type="text" name="name" />
+
+        <label>Subject</label>
+        <input class="input-field" type="text" name="subject" />
+
+        <label>Email</label>
+        <input class="input-field" type="text" name="email" />
+
+        <label>Message</label>
+        <textarea class="input-field" name="message"></textarea>
+
+        <input id="submit-btn" type="submit" value="Send" />
+      </form>
     </div>
-   <div>
-     <ul>
-       <li>About me</li>
-       <li>Projects</li>
-       <li>Contact</li>
-     </ul>
-   </div>
-
-  
-  </footer>
+  </section>
 
   <script type="text/javascript" src="script.js"></script>
 </body>
